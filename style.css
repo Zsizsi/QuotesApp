@@ -1,0 +1,148 @@
+/*transform: translateX(-50%)
+
+svg*/
+
+html { 
+    background: url("picture4.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+#site-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    grid-gap: 15px;
+    
+}
+/*------header------------------------------------*/
+#header h2 {
+    text-align: center;
+}
+
+#header {
+    display: grid;
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: 500px;
+    height: 300px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px; 
+    text-align: center;
+    padding: 10px;
+    border-radius: 5%;
+    background-color: lightcoral;
+   /* box-shadow: 10px 12px 16px 10px rgba(177, 63, 69, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);  */
+   -webkit-box-shadow: 10px 10px 174px 0px rgba(158,47,43,1);
+    -moz-box-shadow: 10px 10px 174px 0px rgba(158,47,43,1);
+    box-shadow: 10px 10px 174px 0px rgba(158,47,43,1);
+}
+/*-------------------------------------------------------------*/
+.quotesDiv {
+    display: grid;
+    grid-column: 1 / 2;
+    align-self: start;
+    justify-self: center;
+    background-color: #87c17f;
+    width: 400px;
+    border-radius: 5%;
+    -webkit-box-shadow: 10px 10px 174px 0px rgba(27,107,28,1);
+    -moz-box-shadow: 10px 10px 174px 0px rgba(27,107,28,1);
+    box-shadow: 10px 10px 174px 0px rgba(27,107,28,1);  
+}
+
+.quoteInnerDiv {
+    height: 100px;
+}
+
+.quotesDiv li {
+    height: 100px;
+}
+
+#quoteToday {
+    display: grid;
+    grid-column: 2 / 3;
+    align-self: start;
+    justify-self: center;
+    background-color: #87c17f;         /*#ceaf75 */
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 23px;
+    width: 400px;
+    border-radius: 5%;
+    -webkit-box-shadow: 10px 10px 174px 0px rgba(194,199,48,1);
+    -moz-box-shadow: 10px 10px 174px 0px rgba(194,199,48,1);
+    box-shadow: 10px 10px 174px 0px rgba(194,199,48,1);
+}
+
+#quotesPrint {
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    list-style-type: none;
+    font-size: 23px;
+}
+/*----------input-------------------------*/
+input {
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 2px black;
+    height: 30px;
+    width: 350px;
+} 
+input::placeholder {
+    color: black;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+/*--------Buttons------------------------------------*/
+#add-btn, #printAll-btn, #quoteToday-btn {
+    background-color: transparent;
+    font-family: 'Indie Flower', cursive;
+    vertical-align: middle;
+    width: 200px;
+    height: 40px;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: inherit;
+    font-size: 20px;
+    border: solid black 1px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn-delete {
+    background-color: transparent;
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: inherit;
+    font-size: 20px;
+    border: solid black 1px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    color: #202c2d;
+    font-size: 23px;
+}
+
+.fas {
+    font-size: 10px;
+    font-weight: 50px;
+}
